@@ -59,6 +59,9 @@
 @include mobile {
     .pf-header {
         top: 30px;
+        &__outer{
+            margin: 0;
+        }
 
         &__logo {
             width: 45px;
