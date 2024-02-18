@@ -21,12 +21,12 @@
     &__head {
         opacity: 0;
         margin-bottom: 32px;
-        animation: drop-in 1.5s ease 0ms forwards;
+        animation: dropin 1.5s ease 0ms forwards;
     }
 
     &__buttons {
         display: flex;
-        animation: drop-in 1.5s ease 0ms forwards;
+        animation: dropin 1.5s ease 0ms forwards;
         justify-content: center;
     }
 
@@ -46,7 +46,7 @@
         &__head {
             opacity: 0;
             margin-bottom: 32px;
-            animation: drop-in 1.5s ease 0ms forwards;
+            animation: dropin 1.5s ease 0ms forwards;
         }
 
         &__buttons {
@@ -61,7 +61,7 @@
 
 }
 
-@keyframes drop-in {
+@keyframes dropin {
     from {
         opacity: 0;
         transform: translateY(100px);

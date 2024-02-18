@@ -1,11 +1,11 @@
 // loader
 window.setTimeout(function () {
     $('.pf-loader').addClass('remove');
-}, 2500);
+}, 5000);
 
 window.setTimeout(function () {
     $('.pf-home').addClass('show');
-}, 3000);
+}, 7000);
 
 document.getElementsByTagName("body")[0].addEventListener("mousemove", function (n) {
     t.style.left = n.clientX + "px",
@@ -30,6 +30,7 @@ for (var r = document.querySelectorAll(".hover-link"), a = r.length - 1; a >= 0;
 function o(t) {
     t.addEventListener("mouseover", n), t.addEventListener("mouseout", s)
 }
+
 //Color change on scroll
 
 $('.section-div:nth-child(1)').on('mouseover', function (event) {
