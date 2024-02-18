@@ -181,7 +181,8 @@ html {
 
 html,
 body {
-  overflow: hidden;
+  position: relative !important;
+  overflow: hidden !important;
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 16px;
   font-weight: 400;
@@ -419,6 +420,9 @@ a:hover .button-text {
 @media (max-width: 767px) {
   .pf-header {
     top: 30px;
+  }
+  .pf-header__outer {
+    margin: 0;
   }
   .pf-header__logo {
     width: 45px;
@@ -1067,6 +1071,7 @@ h2 {
   }
 }
 .pf-loader {
+  overflow: hidden;
   cursor: none;
   position: absolute;
   width: 100%;
